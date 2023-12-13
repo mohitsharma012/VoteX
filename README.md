@@ -1,6 +1,2 @@
 
-
-# VoteX
-
-this shfjkahkafds
-sdjfhjasd
+git push origin main
