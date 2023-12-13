@@ -1,0 +1,174 @@
+/* some default css */
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+.main_contant{
+    padding: 0vh 8vh;
+    margin-top: 10vh;
+    min-height: 90vh;
+}
+.logo{
+    width: 15vh;
+    margin: 0vh 0vh 0vh 1vh;
+}
+
+
+
+
+
+footer{
+    background-color: rgb(46, 46, 46);
+    color: aliceblue;
+}
+
+
+/* some custom css  */
+
+
+.w-30{
+    width: 30%;
+}
+
+
+/* index page css */
+
+.index_main_heading{
+    font-family: 'Merriweather', serif;
+    font-size: 7vh;
+    
+}
+.upcoming_election_contaniner div div img{
+    width: 15vh;
+
+}
+.upcoming_election_contaniner h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+
+
+}
+
+.new_platform_container{
+    margin: 20vh 0vh ;
+}
+
+.new_platform_container h1{
+    font-family: 'Merriweather', serif;
+    font-size: 7vh;
+    /* margin-top: 15vh; */
+
+}
+.election_result_container h2{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+
+}
+
+.election_result_container div div img{
+    width: 10vh;
+}
+
+.election_result_container div div h2{
+    font-size: 18px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.bg-custom {
+    background-color: #1c1c1c; /* Replace with your desired color */
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+    color: #ffffff;
+}
+.hover-effect:hover {
+    color: #ffffff; /* Replace with your desired hover color */
+    /* Add other hover effects as needed */
+  }
+
+
+
+
+
+/* signin page css */
+.signin_page-container{
+    margin-top: -10vh;
+
+}
+.signin_page-container span{
+    color: #6c757d;
+    font-size: 14px;
+
+}
+.signin_page-container form{
+    padding: 3vh 3vh ;
+    border: solid 1px #00000030;
+    border-radius: 15px;
+}
+.signin_page-container form h3{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+
+/* upcoming election page style  */
+.upcoming_election_page_container{
+    margin-top: 15vh;
+
+}
+.upcoming_election_page_container h2{
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
+}
+.upcoming_election_page_container table tbody tr th img{
+    width: 15vh;
+}
+.upcoming_election_page_container table tbody tr td{
+    color: #030303;
+    font-size: 18px;
+    margin: 0vh 1vh;
+    vertical-align: middle;
+}
+.upcoming_election_page_container table{
+    margin: 0vh 12vh ;
+    width: 90%;
+}
+.upcoming_election_page_container table tbody tr:hover{
+    background-color: #f3f3f3;
+}
+.upcoming_election_page_container div{
+    margin: 8vh 0vh 0vh 6vh;
+}
+
+.upcoming_election_page_container div a div:hover{
+    background-color: #f3f3f3;
+}
+
+
+/* about page style  */
+
+.about_us_page_container{
+    margin: 13vh 10vh;
+
+}
+.about_us_page_container h2{
+    font-family: 'Merriweather', serif;
+}
+.about_us_page_container p{
+    font-size: 18px;
+}
+
+
+
+/* contact us page style  */
+.contact_us_page_container{
+    margin: 15vh 0vh;
+}
+
+
+
+
+
