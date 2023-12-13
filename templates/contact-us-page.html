@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'partials/head.html' %}
+    <title>VoteX</title>
+</head>
+
+<body>
+
+    {% include 'partials/navbar.html' %}
+
+
+    <div class="main_contant">
+
+        <div class="contact_us_page_container d-flex justify-content-center align-items-center flex-column">
+            <h2 class="mb-3">Reach Us Now </h2>
+
+            <form action="" class="w-50">
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                </div>
+                <a href="">
+                    <button type="submit" class="btn btn-info fs-7 blur w-100">Submit</button>
+                  </a>
+            </form>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- footer code  -->
+    {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include 'partials/head.html' %}
+    <title>VoteX</title>
+</head>
+
+<body>
+    <!-- navabar code  -->
+    {% include 'partials/navbar.html' %}
+
+    <!-- this is the main webpage code  -->
+    <div class="main_contant m-auto w-auto">
+        <div class="upcoming_election_page_container">
+            <h2 class="ms-3 mb-5 ps-4 fs-4">Election Result</h2>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                      <th scope="col" class="text-center"></th>
+                      <th scope="col"> Election</th>
+                      <th scope="col">Date</th>
+                      <th scope="col">State</th>
+                      <th scope="col">Winner</th>
+                      <th scope="col"></th>
+                    </tr>
+                  </thead>
+                <tbody>
+                                    
+                    <tr>
+                        <th scope="row">
+                            <img src="/static/img/party_logo.png" alt="" />
+                        </th>
+                        <td>Catoon Network Best caractor</td>
+                        <td>22/07/2003</td>
+                        <td>Delhi</td>
+                        <td>Doremon</td>
+                        <td>
+                            <a href="#">
+                                <button type="button" class="row btn px-3 btn-info fs-6">
+                                    View full result
+                                </button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <img src="/static/img/party_logo.png" alt="" />
+                        </th>
+                        <td>Catoon Network Best caractor</td>
+                        <td>22/07/2003</td>
+                        <td>Delhi</td>
+                        <td>Doremon</td>
+                        <td>
+                            <a href="#">
+                                <button type="button" class="row btn px-3 btn-info fs-6">
+                                    View full result
+                                </button>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">
+                            <img src="/static/img/party_logo.png" alt="" />
+                        </th>
+                        <td>Catoon Network Best caractor</td>
+                        <td>22/07/2003</td>
+                        <td>Delhi</td>
+                        <td>Doremon</td>
+                        <td>
+                            <a href="#">
+                                <button type="button" class="row btn px-3 btn-info fs-6">
+                                    View full result
+                                </button>
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            
+        </div>
+    </div>
+
+    <!-- footer code  -->
+    {% include 'partials/footer.html' %}
+</body>
+
+</html>
